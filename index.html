@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🏋️ Fitness Dashboard</h1>
+
+    <div class="card">
+        <h3>Today's Steps</h3>
+        <p id="steps">8500</p>
+    </div>
+
+    <div class="card">
+        <h3>BMI Calculator</h3>
+        <input type="number" id="height" placeholder="Height (cm)">
+        <input type="number" id="weight" placeholder="Weight (kg)">
+        <button onclick="calculateBMI()">Calculate</button>
+        <p id="bmi"></p>
+    </div>
+
+    <div class="card">
+        <h3>Calories Burned</h3>
+        <p>620 kcal</p>
+    </div>
+
+    <div class="card">
+        <h3>Water Intake</h3>
+        <button onclick="drinkWater()">+1 Glass</button>
+        <p id="water">0 Glasses</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
