@@ -25,24 +25,7 @@ A modern, responsive Fitness Dashboard built using HTML, CSS, JavaScript, and Ch
 
 ## 📂 Project Structure
 
-```
-Fitness-Dashboard/
-│── index.html
-│── css/
-│    ├── style.css
-│    └── responsive.css
-│── js/
-│    ├── app.js
-│    ├── bmi.js
-│    ├── calories.js
-│    ├── charts.js
-│    └── storage.js
-│── assets/
-│    ├── images/
-│    └── icons/
-│── screenshots/
-│── README.md
-```
+
 
 ## 🚀 Getting Started
 
